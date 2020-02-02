@@ -1,0 +1,33 @@
+{
+    "header" : {
+        "name" : "Travis Molter",
+        "title" : "Software Developer",
+        "mobile" : "503-550-6752",
+        "email" : "travismolter@gmail.com",
+        "city" : "Portland",
+        "github" : "https://github.com/treem0",
+        "linkedin" : "https://www.linkedin.com/in/travismolter/"
+    },
+    "summary" : "Software Developer with a background of IT at one of the largest non-profit air ambulance companies in the country. Resourceful and agile team player offering the drive to always keep learning and moving forward. " ,
+    "techSkills" : {
+        "languages" : ["HTML", "CSS", "JavaScript"],
+        "back-end" : ["Node.js", "Express"],
+        "front-end" : ["React", "Redux", "jQuery"],
+        "databases" : ["MongoDB", "PostgreSQL"],
+        "tools" : ["Git", "Github", "Slack", "VS Code"],
+        "dev-practices" : ["TDD", "BDD"],
+        "test" : ["JEST", "QUnit", "TravisCL"]
+    },
+    "projects" : [
+        {
+            "name" : "CovrLettr",
+            "tech" : "Node.js, MongoDB, Mongoose, Express",
+            "summary" : "Mad lib style cover letter generator that scores and returns the highest scoring cover letter based on sentiment value."
+        },
+        {
+            "name" : "Columns And Rogues",
+            "tech" : "JavaScript, HTML, CSS, PostgreSQL, Node.js",
+            "summary" : "Full Stack rogue-like game"
+        }
+    ]
+}
