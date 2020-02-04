@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { header } from '../../../resume.json';
 
-const Header = ({ name, title, mobile, email, city, github, linkedin }) => (
+const Header = () => (
   <>
-    <h1>{name}</h1>
-    <h2>{title}</h2>
-    <p>{mobile}</p>
-    <p>{email}</p>
-    <p>{city}</p>
-    <p>{github}</p>
-    <p>{linkedin}</p>
+    <h1>{header.name}</h1>
+    <h2>{header.title}</h2>
+    <p>{header.mobile}</p>
+    <p>{header.email}</p>
+    <p>{header.city}</p>
+    <p>{header.github}</p>
+    <p>{header.linkedin}</p>
   </>
 );
 

@@ -11,11 +11,11 @@
     "summary" : "Software Developer with a background of IT at one of the largest non-profit air ambulance companies in the country. Resourceful and agile team player offering the drive to always keep learning and moving forward. " ,
     "techSkills" : {
         "languages" : ["HTML", "CSS", "JavaScript"],
-        "back-end" : ["Node.js", "Express"],
-        "front-end" : ["React", "Redux", "jQuery"],
+        "backEnd" : ["Node.js", "Express"],
+        "frontEnd" : ["React", "Redux", "jQuery"],
         "databases" : ["MongoDB", "PostgreSQL"],
         "tools" : ["Git", "Github", "Slack", "VS Code"],
-        "dev-practices" : ["TDD", "BDD"],
+        "devPractices" : ["TDD", "BDD"],
         "test" : ["JEST", "QUnit", "TravisCL"]
     },
     "projects" : [
