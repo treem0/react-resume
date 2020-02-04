@@ -27,7 +27,50 @@
         {
             "name" : "Columns And Rogues",
             "tech" : "JavaScript, HTML, CSS, PostgreSQL, Node.js",
-            "summary" : "Full Stack rogue-like game"
+            "summary" : "Full Stack rogue-like game where the player dives into a grid mapped game, moving from cell to cell discovering gold, items, monsters and doors to other worlds."
+        },
+        {
+            "name" : "QWIXX",
+            "tech" : "HTML, CSS, JavaScript",
+            "summary" : "A mobile-responsive implementation of the popular Qwixx dice game. Developed with face-to-face simulaneous multiplayer play in mind, each player should run a copy on their own device so they can score on the rolls of other players as well as their own."
+        }
+    ],
+    "workExperience" : [
+        {
+            "company" : "Life Flight Network",
+            "title" : "IT Senior Helpdesk Support Specialist",
+            "dateRange" : "September 2015 - September 2019",
+            "duties" : [
+                "Support Small-Medium Size Business Environment (Desktops, Laptops, Projectors, Printers, Phones, Ipads)",
+                "Support End-Users via Walkups, Phone calls or EmailsAssist with Hardware, Software and Network Issues",
+                "Research Issue to Resolve Quickly or Progress to Next Level Support",
+                "Wipe/Image and Deploy all Company Desktops/Laptops",
+                "Deploy/Setup Systems for New Bases/Base Maintenance"
+            ]
+        },
+        {
+            "company" : "Oregon State University",
+            "title" : "Student Producer",
+            "dateRange" : "August 2012 - December 2013",
+            "duties" : [
+                "Help and consult other students with various technical issues containing equipment or software",
+                "Wipe/Image laptops returned by students",
+                "Check laptop/other equipment to be functioning correctly",
+                "Film events around campus with different pan-zoom and location positioning techniques",
+                "Edit videos for events and training exercises using Final Cut Pro and Adobe Premiere"
+            ]
+        }
+    ],
+    "education" : [
+        {
+            "school" : "Alchemy Code Lab",
+            "degree" : "Full Stack Software Development",
+            "dateRange" : "September 2019 - March 2020"
+        },
+        {
+            "school" : "Oregon State University",
+            "degree" : "BS in New Media Communication",
+            "dateRange" : "January 2010 - March 2014"
         }
     ]
 }
