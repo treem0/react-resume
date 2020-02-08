@@ -1,7 +1,16 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { summary, techSkills, education } from '../../../resume.json';
 
-const LeftColumn = ({ summary, languages, backEnd, frontEnd, databases, tools, devPractices, tests }) => {
+const LeftColumn = () => {
+  const educationElements = education.map((edu, i) => (
+    <li key={i}>
+      <h3>{edu.school}</h3>
+      <h4>{edu.degree}</h4>
+      <p>{edu.dateRange}</p>
+    </li>
+  ))
+
+  return (
   <>
     <div>
       <h2>Summary</h2>
@@ -9,29 +18,22 @@ const LeftColumn = ({ summary, languages, backEnd, frontEnd, databases, tools, d
     </div>
     <div>
       <h2>Tech Skills</h2>
-      <p>Languages: {languages}</p>
-      <p>Back End: {backEnd}</p>
-      <p>Front End: {frontEnd}</p>
-      <p>Databases: {databases}</p>
-      <p>Tools: {tools}</p>
-      <p>Dev Practices: {devPractices}</p>
-      <p>Tests: {tests}</p>
+      <p>Languages: {techSkills.languages}</p>
+      <p>Back End: {techSkills.backEnd}</p>
+      <p>Front End: {techSkills.frontEnd}</p>
+      <p>Databases: {techSkills.databases}</p>
+      <p>Tools: {techSkills.tools}</p>
+      <p>Dev Practices: {techSkills.devPractices}</p>
+      <p>Tests: {techSkills.tests}</p>
     </div>
     <div>
       <h2>Education</h2>
+      <ul>
+      {educationElements}
+      </ul>
     </div>
-  </>;
-};
-
-LeftColumn.propTypes = {
-  summary: PropTypes.string.isRequired,
-  languages: PropTypes.array.isRequired,
-  backEnd: PropTypes.array.isRequired,
-  frontEnd: PropTypes.array.isRequired,
-  databases: PropTypes.array.isRequired,
-  tools: PropTypes.array.isRequired,
-  devPractices: PropTypes.array.isRequired,
-  tests: PropTypes.array.isRequired
+  </>
+  )
 };
 
 export default LeftColumn;
