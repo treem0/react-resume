@@ -3,10 +3,15 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "Header1 Header1" "leftColumn rightColumn";
-}
+
+  ul {
+    list-style-type: none;
+   }
 
 .Header1 { grid-area: Header1; }
 
 .leftColumn { grid-area: leftColumn; }
 
 .rightColumn { grid-area: rightColumn; }
+
+}
