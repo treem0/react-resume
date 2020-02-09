@@ -6,11 +6,12 @@ import styles from './App.css';
 
 export default function App() {
   return (
-    <div className={styles.gridContainer}>
-      <Header className={styles.header} />
-      <LeftColumn className={styles.leftColumn} />
-      <RightColumn className={styles.rightColumn} />
-    </div>
+    <>
+      <main className={styles.gridContainer}>
+        <Header className={styles.Header1} />
+        <LeftColumn className={styles.leftColumn} />
+        <RightColumn className={styles.rightColumn} />
+      </main>
+    </>
   );
 }
-  

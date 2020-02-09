@@ -1,6 +1,6 @@
 {
     "header" : {
-        "name" : "Travis Molter",
+        "name" : "TRAVIS MOLTER",
         "title" : "Software Developer",
         "city" : "Portland",
         "github" : "https://github.com/treem0",
@@ -8,13 +8,13 @@
     },
     "summary" : "Software Developer with a background of IT at one of the largest non-profit air ambulance companies in the country. Resourceful and agile team player offering the drive to always keep learning and moving forward. " ,
     "techSkills" : {
-        "languages" : ["HTML", "CSS", "JavaScript"],
-        "backEnd" : ["Node.js", "Express"],
-        "frontEnd" : ["React", "Redux", "jQuery"],
-        "databases" : ["MongoDB", "PostgreSQL"],
-        "tools" : ["Git", "Github", "Slack", "VS Code"],
-        "devPractices" : ["TDD", "BDD"],
-        "test" : ["JEST", "QUnit", "TravisCL"]
+        "languages" : "HTML, CSS, JavaScript",
+        "backEnd" : "Node.js, Express",
+        "frontEnd" : "React, Redux, jQuery",
+        "databases" : "MongoDB, PostgreSQL",
+        "tools" : "Git, Github, Slack, VS Code",
+        "devPractices" : "TDD, BDD",
+        "test" : "JEST, QUnit, TravisCL"
     },
     "projects" : [
         {
